@@ -6,7 +6,7 @@ body { margin:0; background:var(--paper); color:var(--ink); font-family:"Noto Sa
 .wrap { width:min(1180px, calc(100% - 64px)); margin:auto; }
 .nav { height:98px; display:flex; justify-content:space-between; align-items:center; font-family:"DM Sans",sans-serif; font-size:14px; }
 .logo { color:var(--ink); font-size:26px; font-weight:700; letter-spacing:-2px; text-decoration:none; }.logo span { color:#f15d51; }
-nav { display:flex; gap:31px; margin-left:80px; } a { color:inherit; }.nav a { text-decoration:none; }.contact-link span,.archive-top span,footer span { color:#ed6357; font-size:18px; }
+nav { display:flex; gap:31px; margin-left:80px; } a { color:inherit; }.nav a { text-decoration:none; }.contact-link { display:flex; gap:16px; }.contact-link span,.archive-top span,footer span { color:#ed6357; font-size:18px; }
 .hero { min-height:calc(100vh - 98px); padding:78px 0 51px; display:flex; flex-direction:column; justify-content:space-between; }
 .eyebrow,.section-label,.note span,.period,small { font:500 11px "DM Mono",monospace; letter-spacing:.08em; }.eyebrow { color:#6b746c; margin:0; }
 h1,h2,h3,p { margin-top:0; } h1 { font-size:clamp(42px,6.1vw,80px); line-height:1.18; letter-spacing:-.075em; margin:0; font-weight:600; } h1 em { color:#f05f52; font-style:normal; } .intro { font-size:17px; color:#59625d; line-height:1.75; margin:34px 0 0; }.intro strong { color:var(--ink); }
